@@ -7,7 +7,7 @@ public class bancoProjeto {
         Scanner sc = new Scanner(System.in);
 
         // SALDO
-        double saldo = 0.0;
+        double saldo = 2000.00;
 
         // OPÇÃO DESEJADA
         System.out.println("=== BANCO JAVA ===");
@@ -29,7 +29,7 @@ public class bancoProjeto {
 
             // DEPOSITO BANCÁRIO
             case 2:
-                System.out.print("Qual valor deseja de depositar: ");
+                System.out.print("Qual valor você deseja de depositar: ");
                 double valor = sc.nextDouble();
                 if (valor > 0.0) {
                     saldo += valor;
@@ -43,7 +43,7 @@ public class bancoProjeto {
 
             // SAQUE BANCÁRIO
             case 3:
-                System.out.print("Qual valor deseja sacar: ");
+                System.out.print("Qual valor você deseja sacar: ");
                 double saque = sc.nextDouble();
                 System.out.println(); // QUEBRA DE LINHA
                 if (saque > saldo) {
