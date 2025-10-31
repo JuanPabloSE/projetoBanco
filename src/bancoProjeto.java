@@ -57,7 +57,7 @@ public class bancoProjeto {
                 }
                 break;
 
-            // SAÍDA DO SISTEMA
+            // SOLICITAR EMPRÉSTIMO
             case 4:
                 System.out.print("Qual o valor desejado para empréstimo: ");
                 double emprestimo = sc.nextDouble();
@@ -91,6 +91,7 @@ public class bancoProjeto {
 
                 break;
 
+            // SAÍDA DO SISTEMA
             case 5:
                 System.out.println("Saindo do sistema");
                 break;
