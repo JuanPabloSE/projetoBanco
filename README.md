@@ -30,7 +30,8 @@ Criar um sistema simples de operações bancárias via console, permitindo:
 | `1` | Ver saldo atual |
 | `2` | Depositar valor na conta |
 | `3` | Sacar valor, se houver saldo suficiente |
-| `4` | Sair do sistema |
+| `4` | Solicitar Empréstimo |
+| `5` | Sair do sistema |
 
 ---
 
@@ -40,7 +41,8 @@ Criar um sistema simples de operações bancárias via console, permitindo:
 1 - Ver saldo
 2 - Depositar
 3 - Sacar
-4 - Sair
+4 - Solicitar Empréstimo
+5 - Sair
 
 Escolha uma das opções: 2
 Qual valor deseja depositar: 200
