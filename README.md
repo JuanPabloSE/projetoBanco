@@ -12,6 +12,7 @@ Criar um sistema simples de operações bancárias via console, permitindo:
 - Consultar saldo
 - Depositar valores
 - Realizar saques
+- Solicitar Empréstimo
 - Encerrar o sistema
 
 ---
