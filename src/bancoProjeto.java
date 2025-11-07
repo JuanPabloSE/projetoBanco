@@ -9,8 +9,10 @@ public class bancoProjeto {
         // VARIÁVEIS DO SISTEMA (SALDO, LIMITE DE EMPRÉSTIMO)
         double saldo = 2000.00;
         double limite, valorTotalJuros, valorParcelas;
+        int opcao;
 
         // OPÇÃO DESEJADA
+        do {
         System.out.println("=== BANCO JAVA ===");
         System.out.println("1 - Ver Saldo");
         System.out.println("2 - Depositar");
@@ -19,7 +21,7 @@ public class bancoProjeto {
         System.out.println("5 - Sair");
         System.out.println(); // QUEBRA DE LINHA
         System.out.printf("Escolha uma das opções: ");
-        int opcao = sc.nextInt();
+        opcao = sc.nextInt();
         System.out.println(); // QUEBRA DE LINHA
 
         // Switch Case - Opções
@@ -100,9 +102,11 @@ public class bancoProjeto {
             default:
                 System.out.println("Opção inválida");
                 break;
-        }
 
-        System.out.println(); // QUEBRA DE LINHA
+        }
+            System.out.println(); // QUEBRA DE LINHA
+
+        } while (opcao != 5);
 
         sc.close();
     }
