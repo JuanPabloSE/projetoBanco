@@ -21,7 +21,7 @@ public class bancoProjeto {
         System.out.println("4 - Solicitar Empréstimo");
         System.out.println("5 - Sair");
         System.out.println(); // QUEBRA DE LINHA
-        System.out.printf("Escolha uma das opções: ");
+        System.out.print("Escolha uma das opções: ");
         opcao = sc.nextInt();
         System.out.println(); // QUEBRA DE LINHA
 
