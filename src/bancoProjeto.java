@@ -10,7 +10,7 @@ public class bancoProjeto {
         double saldo = 2000.00;
         double limite, valorTotalJuros, valorParcelas;
         int opcao;
-        String resposta;
+        char resposta;
 
         // OPÇÃO DESEJADA
         do {
@@ -115,13 +115,13 @@ public class bancoProjeto {
 
             else {
             System.out.print("Deseja continuar utilizando o sistema (s/n)? ");
-            resposta = sc.next();
+            resposta = sc.next().charAt(0);
             System.out.println(); // QUEBRA DE LINHA
-            if (resposta.equalsIgnoreCase("n")) {
+            if (resposta == 'n'){
                 System.out.println("SISTEMA ENCERRADO, VOLTE SEMPRE !");
             }
 
-            }} while (resposta.equalsIgnoreCase("s"));
+            }} while (resposta != 'n');
 
         sc.close();
     }
