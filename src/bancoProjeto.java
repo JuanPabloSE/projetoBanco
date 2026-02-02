@@ -121,7 +121,7 @@ public class bancoProjeto {
                 System.out.println("SISTEMA ENCERRADO, VOLTE SEMPRE !");
             }
 
-            }} while (resposta != 'n');
+            } } while (resposta != 'n');
 
         sc.close();
     }
