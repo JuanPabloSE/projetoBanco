@@ -114,15 +114,15 @@ public class bancoProjeto {
             }
 
             else {
-            System.out.print("Deseja continuar utilizando o sistema (s/n)? ");
-            resposta = sc.next().trim().toLowerCase();
+            System.out.print("Deseja continuar utilizando o sistema ? (S/N): ");
+            resposta = sc.next().trim().toUpperCase();
             System.out.println(); // QUEBRA DE LINHA
 
-            if (resposta.equals("n")){
+            if (resposta.equals("N")){
                 System.out.println("SISTEMA ENCERRADO, VOLTE SEMPRE !");
             }
 
-            } } while (resposta.equals("s"));
+            } } while (resposta.equals("S"));
 
         sc.close();
     }
