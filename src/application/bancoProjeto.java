@@ -42,7 +42,7 @@ public class bancoProjeto {
                     break;
 
                 case 4:
-                    System.out.println("Sistema encerrado!");
+                    System.out.println("Sistema encerrado.");
                     break;
 
                 default:
